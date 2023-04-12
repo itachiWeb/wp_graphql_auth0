@@ -1,0 +1,1355 @@
+# Translation of Plugins - Login by Auth0 - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Login by Auth0 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-09 14:01:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Login by Auth0 - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Login by Auth0 provides improved username/password login, passwordless login, social login, multi-factor authentication, and single sign-on for all your sites."
+msgstr "Auth0 によるログインは、すべてのサイトに対して、改善されたユーザー名/パスワードログイン、パスワードなしログイン、ソーシャルログイン、多要素認証、およびシングルサインオンを提供します。"
+
+#: templates/initial-setup/end.php:10
+msgid "Go To Plugin Settings"
+msgstr "プラグイン設定に移動する"
+
+#: WP_Auth0.php:692
+msgid "No Auth0 user ID provided."
+msgstr "Auth0 ユーザ ID が提供されていません。"
+
+#: WP_Auth0.php:625
+msgid "Email cannot be changed for non-database connections."
+msgstr "データベースへの接続が行えない場合、Eメールアドレスは変更できません。"
+
+#: WP_Auth0.php:698
+msgid "API call failed."
+msgstr "API の呼び出しに失敗しました。"
+
+#: WP_Auth0.php:624
+msgid "Action failed, please see the Auth0 error log for details."
+msgstr "アクションが失敗しました。詳細は Auth0 のエラーログを確認してください。"
+
+#: WP_Auth0.php:623
+msgid "Deleted"
+msgstr "削除済み"
+
+#: WP_Auth0.php:622
+msgid "Are you sure you want to delete the Auth0 user data for this user?"
+msgstr "このユーザーの Auth0 ユーザー データを削除しますか?"
+
+#: WP_Auth0.php:566
+msgid "Manual setup instructions"
+msgstr "手動セットアップの手順"
+
+#: WP_Auth0.php:565
+msgid " or follow the "
+msgstr "または次に従ってください"
+
+#: WP_Auth0.php:211 WP_Auth0.php:490 WP_Auth0.php:564
+msgid "Setup Wizard"
+msgstr "セットアップウィザード"
+
+#: WP_Auth0.php:201 WP_Auth0.php:494
+msgid "Settings"
+msgstr "設定"
+
+#: templates/a0-widget-setup-form.php:70
+msgid "Translation:"
+msgstr "翻訳："
+
+#: templates/a0-widget-setup-form.php:55
+msgid "Default Setting"
+msgstr "デフォルト設定"
+
+#: templates/a0-widget-setup-form.php:50
+msgid "No"
+msgstr "いいえ"
+
+#: templates/a0-widget-setup-form.php:45
+msgid "Yes"
+msgstr "はい"
+
+#: templates/a0-widget-setup-form.php:20
+msgid "Button text"
+msgstr "ボタンテキスト"
+
+#: templates/a0-widget-setup-form.php:11
+msgid "Note"
+msgstr "備考"
+
+#: templates/settings.php:102
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: templates/settings.php:94
+msgid "Support"
+msgstr "サポート"
+
+#: templates/settings.php:91
+msgid "GitHub Issues"
+msgstr "GitHub の問題"
+
+#: templates/settings.php:23 WP_Auth0.php:517 WP_Auth0.php:518
+msgid "Help"
+msgstr "ヘルプ"
+
+#: templates/settings.php:20
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: templates/settings.php:17
+msgid "Embedded"
+msgstr "埋め込み"
+
+#: templates/settings.php:14
+msgid "Features"
+msgstr "特徴"
+
+#: templates/settings.php:11
+msgid "Basic"
+msgstr "基本"
+
+#: templates/initial-setup/connections.php:28
+msgid "Next"
+msgstr "次へ"
+
+#: templates/initial-setup/connections.php:5
+msgid "Step 2:"
+msgstr "ステップ 2:"
+
+#: templates/initial-setup/admin-creation.php:39
+msgid "Skip this step"
+msgstr "このステップをスキップする"
+
+#: templates/initial-setup/admin-creation.php:38
+msgid "Submit"
+msgstr "送信"
+
+#: templates/initial-setup/admin-creation.php:32
+msgid "Password"
+msgstr "パスワード"
+
+#: templates/initial-setup/admin-creation.php:11
+msgid "Choose your password"
+msgstr "パスワードを選択"
+
+#: templates/initial-setup/admin-creation.php:11
+msgid "Step 3:"
+msgstr "ステップ 3:"
+
+#: templates/initial-setup/connection_profile.php:102
+msgid "More information here."
+msgstr "詳細はこちらをご覧ください."
+
+#: templates/initial-setup/connection_profile.php:56
+msgid "Sign up for free"
+msgstr "無料でサインアップ"
+
+#: templates/import_settings.php:56
+msgid "Export"
+msgstr "エクスポート"
+
+#: templates/import_settings.php:41
+msgid "Import"
+msgstr "インポート"
+
+#: templates/import_settings.php:24
+msgid "Export Settings"
+msgstr "設定のエクスポート"
+
+#: templates/import_settings.php:23
+#: templates/initial-setup/connection_profile.php:124
+msgid "Import Settings"
+msgstr "設定のインポート"
+
+#: templates/import_settings.php:17
+msgid "Please note:"
+msgstr "％s重要!!!％s"
+
+#: templates/a0-error-log.php:34
+msgid "Count"
+msgstr "カウント"
+
+#: templates/a0-error-log.php:33
+msgid "Message"
+msgstr "メッセージ"
+
+#: templates/a0-error-log.php:32
+msgid "Error code"
+msgstr "エラー コード"
+
+#: templates/a0-error-log.php:31
+msgid "Section"
+msgstr "セクション"
+
+#: templates/a0-error-log.php:30
+msgid "Date"
+msgstr "日付"
+
+#: templates/a0-error-log.php:15 templates/initial-setup/admin-creation.php:20
+#: WP_Auth0.php:528 WP_Auth0.php:529
+msgid "Error Log"
+msgstr "エラーログ"
+
+#: lib/WP_Auth0_ErrorLog.php:145
+msgid "Unknown error message"
+msgstr "未知のエラーメッセージ"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:308
+msgid "disabled"
+msgstr "無効"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:308
+msgid "enabled"
+msgstr "有効"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:218
+msgid "Delete Cache"
+msgstr "キャッシュを削除"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:76
+msgid "Allow Signups"
+msgstr "申し込み"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:34
+msgid "Custom Domain"
+msgstr "カスタムドメイン"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:28
+msgid "Domain"
+msgstr "ドメイン"
+
+#: lib/admin/WP_Auth0_Admin_Generic.php:257
+#: templates/initial-setup/connection_profile.php:35
+#: templates/initial-setup/connection_profile.php:41
+msgid "here"
+msgstr "こちら"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:312
+msgid "Continue?"
+msgstr "続けますか？"
+
+#: lib/admin/WP_Auth0_Admin.php:49
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
+
+#: lib/admin/WP_Auth0_Admin.php:45
+msgid "Done!"
+msgstr "完了！"
+
+#: lib/admin/WP_Auth0_Admin.php:43
+msgid "Choose icon"
+msgstr "アイコンを選択"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:181
+#: templates/a0-widget-setup-form.php:66
+msgid "Choose Icon"
+msgstr "アイコンを選択"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:61
+#: templates/a0-widget-setup-form.php:92
+msgid "Extra Settings"
+msgstr "追加設定"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:37
+msgid "Form Title"
+msgstr "フォームタイトル"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:25
+msgid "Passwordless Login"
+msgstr "パスワードなしのログイン"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup_AdminUser.php:26
+#: lib/initial-setup/WP_Auth0_InitialSetup_ConnectionProfile.php:28
+#: lib/WP_Auth0_Import_Settings.php:28 WP_Auth0.php:366
+msgid "Unauthorized."
+msgstr "認証されません。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:91
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:105
+msgid " for more information."
+msgstr "詳細はこちらをご覧ください。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:90
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:104
+msgid "Error log"
+msgstr "エラーログ"
+
+#: lib/WP_Auth0_LoginManager.php:599
+msgid "unknown"
+msgstr "不明"
+
+#: lib/WP_Auth0_LoginManager.php:598
+msgid "error code"
+msgstr "エラーコード"
+
+#: lib/WP_Auth0_LoginManager.php:155
+msgid "Invalid state"
+msgstr "不正な状態"
+
+#: lib/profile/WP_Auth0_Profile_Delete_Data.php:66 lib/WP_Auth0_Routes.php:344
+msgid "Forbidden"
+msgstr "禁止"
+
+#: lib/WP_Auth0_Routes.php:338
+msgid "Unauthorized"
+msgstr "無許可"
+
+#: lib/WP_Auth0_Routes.php:319
+msgid "Password is required"
+msgstr "パスワードは必須です"
+
+#: lib/WP_Auth0_Routes.php:315
+msgid "Username is required"
+msgstr "ユーザー名が必須です"
+
+#: lib/WP_Auth0_Routes.php:236 lib/WP_Auth0_UsersRepo.php:148
+msgid "User not found"
+msgstr "ユーザーが見つかりませんでした"
+
+#: lib/WP_Auth0_Embed_Widget.php:44 lib/WP_Auth0_Lock.php:223
+#: lib/WP_Auth0_WooCommerceOverrides.php:43
+msgid "Login"
+msgstr "ログイン"
+
+#: WP_Auth0.php:538
+msgid "Import-Export settings"
+msgstr "インポート/エクスポート設定"
+
+#: WP_Auth0.php:537
+msgid "Import-Export Settings"
+msgstr "インポート/エクスポート設定"
+
+#: WP_Auth0.php:345 WP_Auth0.php:669
+msgid "Not authorized."
+msgstr "承認されていません。"
+
+#: WP_Auth0.php:341
+msgid "Not allowed."
+msgstr "許可されていません。"
+
+#: templates/a0-widget-setup-form.php:97
+msgid "See options and examples"
+msgstr "オプションと設定例を確認する"
+
+#: templates/a0-widget-setup-form.php:87
+msgid "Use a languageDictionary property the Extra Settings field below to change text."
+msgstr "下の追加設定フィールドの languageDictionary プロパティを使用して、テキストを変更します。"
+
+#: templates/a0-widget-setup-form.php:86
+msgid "NOTE: This field is deprecated and will be removed in the next major release. "
+msgstr "注意: このフィールドは非推奨であり、次のメジャーリリースでは削除される予定です。"
+
+#: templates/a0-widget-setup-form.php:80
+msgid "List of all modifiable options"
+msgstr "すべての変更可能なオプションを表示する"
+
+#: templates/a0-widget-setup-form.php:60
+msgid "Icon URL:"
+msgstr "アイコンの URL :"
+
+#: templates/a0-widget-setup-form.php:33
+msgid "Redirect after login:"
+msgstr "ログイン後にリダイレクトさせる: "
+
+#: templates/a0-widget-setup-form.php:27
+msgid "Form title:"
+msgstr "フォームのタイトル: "
+
+#: templates/a0-widget-setup-form.php:12
+msgid "The login form will not display for logged-in users."
+msgstr "ログインフォームはログイン済みユーザには表示されません。"
+
+#: templates/settings.php:95
+msgid "Customers on a paid Auth0 plan can submit trouble tickets for a quick response."
+msgstr "Auth0 の有料プランのカスタマーはトラブルチケットの発行をして、迅速に対応できます。"
+
+#: templates/settings.php:92
+msgid "If you find a bug in the plugin code, the best place to report that is on GitHub under the Issues tab."
+msgstr "プラグインのコードにバグを見つけたら、GitHub にある issue タブから報告してください。"
+
+#: templates/settings.php:84
+msgid "Auth0 Community"
+msgstr "Auto コミュニティ"
+
+#: templates/initial-setup/admin-creation.php:21
+msgid "for more info."
+msgstr "詳細。"
+
+#: templates/initial-setup/admin-creation.php:19
+msgid "An error occurred creating the user. Check that the migration webservices are accessible or check the "
+msgstr "ユーザーを作成中にエラーが発生しました。マイグレーション Web サービスがアクセスできるかどうかまたは以下を確認してください"
+
+#: templates/initial-setup/connection_profile.php:120
+msgid "Save time and import existing Auth0 settings."
+msgstr "時間の節約のため、既存の Auth0 設定をインポートします。"
+
+#: templates/initial-setup/connection_profile.php:117
+msgid "Import Setup"
+msgstr "設定のインポート"
+
+#: templates/initial-setup/connection_profile.php:113
+msgid "Manual Setup Instructions"
+msgstr "手動セットアップの手順"
+
+#: templates/initial-setup/connection_profile.php:110
+msgid "Manual Setup"
+msgstr "手動セットアップ"
+
+#: templates/initial-setup/connection_profile.php:100
+msgid "This requires an inbound connection from Auth0 servers and cannot be changed later without losing data."
+msgstr "Auth0 サーバ からの着信接続が必要で、後からの変更もできません。またこれによりデータの喪失もありません。"
+
+#: templates/initial-setup/connection_profile.php:99
+msgid "This includes everything above plus data migration from your WordPress database."
+msgstr "これには上の全てを含めたデータに加えて、WordPress のデータベースからのデータ移行も含まれます。"
+
+#: templates/initial-setup/connection_profile.php:89
+msgid "Start Standard Setup"
+msgstr "スタンダードセットアップを開始する"
+
+#: templates/initial-setup/connection_profile.php:86
+msgid "Scopes required"
+msgstr "スコープが必要です"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:31
+msgid "Icon URL"
+msgstr "アイコンの URL"
+
+#: lib/WP_Auth0_Routes.php:311
+msgid "Invalid token"
+msgstr "トークンが不正です"
+
+#: templates/settings.php:88
+msgid "If you have questions about how to use Auth0 or the plugin, please create a post (tagged \"WordPress\") if you do not find what you are looking for."
+msgstr "Auth0 やプラグインの使い方に不明な点がある場合や使い方を探しても見つからない場合は、WordPress のタグを付けて投稿をしてください。"
+
+#: templates/initial-setup/admin-creation.php:13
+msgid "Last step: Auth0 will migrate your own account from the WordPress user database to Auth0. You can choose to use the same password as you currently use, or pick a new one. Either way, Auth0 will link your existing account and its administrative role with the new account in Auth0. Type the password you wish to use for this account below."
+msgstr "最終ステップ: Auth0 あなたの WordPress アカウントを WordPress ユーザデータベースから Auth0 へ移行します。同じパスワードを使う事を選択できますし、新しいパスワードの設定もできます。いずれの方法でも Auth0 は存在するアカウントとその管理上の権限グループを新しい Auth0 のアカウントにむつび付けます。アカウントに設定し阿智パスワードを下の入力欄に入力してください。"
+
+#: templates/settings.php:79
+msgid "If you are setting up the plugin for the first time or having issues after an upgrade, please review the settings to make sure your Application is setup correctly."
+msgstr "初めてプラグインを設定する場合やアップグレード後におかしくなった場合は、設定を見直し、アプリケーションのセットアップが正しい事を確認しください。"
+
+#: templates/settings.php:75
+msgid "Configuration documentation"
+msgstr "設定用のドキュメント"
+
+#: templates/settings.php:70
+msgid "If you have issues or questions, we provide a variety of channels to assist:"
+msgstr "問題や質問にはさまざまなチャネルを使用して支援します。"
+
+#: templates/settings.php:65
+msgid "Profile enrichment, integrations, and other custom management tasks using Rules"
+msgstr "ルールを利用した、プロファイルの強化・統合・その他カスタムマネージメントタスク"
+
+#: templates/settings.php:60
+msgid "Anomaly detection"
+msgstr "異常検出"
+
+#: templates/settings.php:55
+msgid "Passwordless login connections"
+msgstr "パスワードレスログイン接続"
+
+#: templates/settings.php:50
+msgid "Many social and enterprise login connections"
+msgstr "多くのソーシャルおよびエンタープライズのログイン接続"
+
+#: templates/settings.php:5
+msgid "Login by Auth0 Settings"
+msgstr "Login by Auth0 設定"
+
+#: templates/initial-setup/connections.php:19
+msgid "Configure Connections"
+msgstr "接続設定"
+
+#: templates/initial-setup/connections.php:5
+msgid "Configure your Connections"
+msgstr "接続設定をする"
+
+#: templates/initial-setup/end.php:5
+msgid "Done! You finished this Setup Wizard"
+msgstr "以上です！　セットアップウィザードが完了しました。"
+
+#: templates/initial-setup/connection_profile.php:73
+msgid "more information"
+msgstr "詳細"
+
+#: templates/initial-setup/connection_profile.php:72
+msgid "Enter your tenant Domain"
+msgstr "テナントのドメイン名を入力してください"
+
+#: templates/initial-setup/connection_profile.php:68
+msgid "Detailed instructions for this option are here."
+msgstr "このオプションの詳細な解説はこちらにあります。"
+
+#: templates/initial-setup/connection_profile.php:66
+msgid "This will create and configure an Application and a database connection for this site."
+msgstr "このサイトへのアプリケーションおよびデータべース接続を作成・設定します。"
+
+#: templates/initial-setup/connection_profile.php:64
+msgid "Standard Setup"
+msgstr "標準セットアップ"
+
+#: templates/initial-setup/connection_profile.php:53
+msgid "To continue you need an Auth0 account."
+msgstr "続けるには Auth0 アカウントが必要です。"
+
+#: templates/initial-setup/connection_profile.php:43
+msgid "Please note that this will delete all Auth0 users for this connection."
+msgstr "この操作によりこの接続のすべての Auth0 ユーザーが削除されることに注意してください。"
+
+#: templates/initial-setup/connection_profile.php:39
+msgid "Delete the created Database Connection "
+msgstr "作成済みのデータベース接続を削除する"
+
+#: templates/initial-setup/connection_profile.php:32
+msgid "Delete the created Application "
+msgstr "作成済みのアプリケーションを削除する"
+
+#: templates/initial-setup/connection_profile.php:31
+msgid "Delete the Domain, Client ID, and Client Secret and save changes."
+msgstr "ドメイン・クライアント ID・クライアントシークレットを削除し、変更を保存します。"
+
+#: templates/initial-setup/connection_profile.php:28
+msgid "Go to Auth0 > Settings > Basic."
+msgstr "Auth0 > 設定 > 基本に進んでください。"
+
+#: templates/initial-setup/connection_profile.php:23
+msgid "To start over and re-run the Setup Wizard:"
+msgstr "最初に戻り、セットアップウィザードを再実行します:"
+
+#: templates/initial-setup/connection_profile.php:22
+msgid "Login by Auth0 is set up and ready for use."
+msgstr "Login by Auth0 の設定が完了し、利用可能な状態です。"
+
+#: templates/initial-setup/connection_profile.php:13
+msgid "documentation pages here"
+msgstr "ドキュメントページはこちらです"
+
+#: templates/initial-setup/connection_profile.php:5
+msgid "Login by Auth0 Setup Wizard"
+msgstr "Login by Auth0 のセットアップウィザード"
+
+#: templates/import_settings.php:53
+msgid "Download the entire plugin configuration."
+msgstr "プラグインの全設定をダウンロードする。"
+
+#: templates/import_settings.php:36
+msgid "Setting values will be validated so check the final values once import is complete. "
+msgstr "設定値の検証が行われます。インポート完了後に最終的な値を確認しください。"
+
+#: templates/import_settings.php:35
+msgid "Settings that are not in the imported JSON will use existing values. "
+msgstr "インポートされた JSON 含まれない設定は既存の設定が適用されます。"
+
+#: templates/import_settings.php:18
+msgid "Settings stored in constants cannot be exported or imported."
+msgstr "定数に保存されている設定はエクスポート・インポート共にできません。"
+
+#: templates/import_settings.php:9
+msgid "Import and Export Settings"
+msgstr "設定のインポートとエクスポート"
+
+#: templates/a0-error-log.php:41
+msgid "No errors"
+msgstr "エラーはありません"
+
+#: templates/a0-error-log.php:19
+msgid "This will delete all error log entries. Proceed?"
+msgstr "この操作は全てのエラーログを消去します。続けますか？　"
+
+#: templates/login-interim.php:9
+msgid "You are connected"
+msgstr "接続が成功しました"
+
+#: lib/WP_Auth0_Embed_Widget.php:22
+msgid "Shows Auth0 login form in your sidebar"
+msgstr "Auth0 ログインフォームをサイドバーに表示させる"
+
+#: lib/WP_Auth0_Embed_Widget.php:18
+msgid "Auth0 Login"
+msgstr "Auth0 Login"
+
+#. Author of the plugin
+msgid "Auth0"
+msgstr "Auth0"
+
+#. Author URI of the plugin
+msgid "https://auth0.com"
+msgstr "https://auth0.com"
+
+#. Plugin Name of the plugin
+msgid "Login by Auth0"
+msgstr "Login by Auth0"
+
+#: lib/WP_Auth0_Lock.php:220
+msgid "Auth0 cannot find node with id "
+msgstr "id で該当のノードが見つかりませんでした。"
+
+#: lib/WP_Auth0_Lock.php:219
+msgid "Auth0 is not configured"
+msgstr "Auth0 は未設定です"
+
+#. translators: The $title variable is the admin-controlled form title.
+#: lib/WP_Auth0_Lock.php:177
+msgid "← Back to %s login"
+msgstr "← %s のログインへ戻る"
+
+#: lib/WP_Auth0_UsersRepo.php:118
+msgid "Empty user id"
+msgstr "user id が空欄です"
+
+#: lib/WP_Auth0_UsersRepo.php:93
+msgid "Registration rejected."
+msgstr "登録が拒否されました。"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:64
+msgid "JWKS Cache Time (in minutes)"
+msgstr "JWKS キャッシュ時間（分）"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:119
+msgid "More information here"
+msgstr "詳細情報はこちら"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:265
+msgid "When \"wle\" query parameter is present"
+msgstr "\"wle\" クエリパラメータが存在する場合"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:70
+msgid "Original Login Form on wp-login.php"
+msgstr "wp-login.php の標準ログインフォーム"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:270
+msgid "When \"wle\" query parameter contains specific code"
+msgstr "\"wle\" クエリパラメータに特定のコードが含まれている場合"
+
+#: lib/profile/WP_Auth0_Profile_Delete_Data.php:36
+#: lib/profile/WP_Auth0_Profile_Delete_Data.php:40
+msgid "Delete Auth0 Data"
+msgstr "Auth0 データを削除"
+
+#: lib/profile/WP_Auth0_Profile_Delete_Data.php:43
+msgid "View in Auth0"
+msgstr "Auth0 で表示"
+
+#: lib/WP_Auth0_Routes.php:307
+msgid "Unauthorized: missing authorization header"
+msgstr "未承認：認証ヘッダーがありません"
+
+#: templates/initial-setup/connections.php:7
+msgid "If your site visitors already have social network accounts, they can authenticate using their existing credentials, or they can set up a username and password combination safeguarded by Auth0's password policies and brute force protection. To configure these connections, use the Configure Connections button below."
+msgstr "サイトの訪問者がすでにソーシャルネットワークアカウントを持っている場合、そのアカウント情報を使用して認証をするか、または、Auth0 のパスワードポリシーとブルートフォース保護によって保護されたユーザー名とパスワードの組み合わせを設定できます。これらの接続を構成するには、下の [接続の構成] ボタンを使用します。"
+
+#: lib/WP_Auth0_Routes.php:194
+msgid "Invalid credentials"
+msgstr "無効な資格情報です"
+
+#: lib/profile/WP_Auth0_Profile_Delete_Data.php:60
+msgid "Empty user_id"
+msgstr "user_id がありません"
+
+#: lib/profile/WP_Auth0_Profile_Change_Password.php:95
+msgid "Password could not be updated."
+msgstr "パスワードを更新できませんでした。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:66
+msgid "error log"
+msgstr "エラーログ"
+
+#: lib/WP_Auth0_Email_Verification.php:38 lib/WP_Auth0_LoginManager.php:601
+msgid "← Login"
+msgstr "← ログイン"
+
+#: lib/WP_Auth0_LoginManager.php:170
+msgid "Invalid ID token"
+msgstr "不正なID トークン"
+
+#: templates/initial-setup/end.php:7
+msgid "Adjust the plugin settings from the WordPress dashboard, and visit the Auth0 dashboard to change how users log in, add connections, enable multi-factor authentication, and more."
+msgstr "WordPress ダッシュボードでプラグインの設定を調整し、Auth0 ダッシュボードにアクセスの上、ユーザーのログイン方法、または接続の追加、多要素認証の有効化などを行います。"
+
+#: lib/WP_Auth0_LoginManager.php:151
+msgid "Missing state"
+msgstr "state がありません"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:68
+msgid "manual setup instructions"
+msgstr "手動セットアップの手順"
+
+#: lib/WP_Auth0_LoginManager.php:348
+msgid "Could not create user. The registration process is not available. Please contact your site’s administrator."
+msgstr "ユーザーを作成できませんでした。登録処理が使用できません。サイト管理者に連絡してください。"
+
+#: lib/WP_Auth0_LoginManager.php:197
+msgid "Error exchanging code"
+msgstr "exchanging code エラー"
+
+#: templates/initial-setup/connection_profile.php:10
+msgid "For more information on installation and configuration, including manual steps, please see the"
+msgstr "インストールや手動設定の手順を含む設定に関する詳しい情報は以下を確認してください"
+
+#: lib/profile/WP_Auth0_Profile_Change_Email.php:124
+msgid "Email suppressed - Auth0 email change failed."
+msgstr "メールが制限されました - Auth0のメールアドレス変更に失敗しました。"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:25
+msgid "Universal Login Page"
+msgstr "ユニバーサルログインページ"
+
+#: lib/admin/WP_Auth0_Admin_Generic.php:243 templates/settings.php:43
+msgid "Auth0 dashboard"
+msgstr "Auth0 ダッシュボード"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:37
+msgid "Auto Login Method"
+msgstr "自動ログインメソッド"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:43
+msgid "Auth0 Logout"
+msgstr "Auth0 ログアウト"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:49
+msgid "Override WordPress Avatars"
+msgstr "WordPress のアバターを上書きする"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:112
+msgid "Auth0 Server Domain"
+msgstr "Auth0 サーバードメイン"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:82
+msgid "Auto Provisioning"
+msgstr "自動ユーザー作成"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:76
+msgid "Force HTTPS Callback"
+msgstr "HTTPS でのコールバックを強制する"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:70
+msgid "Login Redirection URL"
+msgstr "ログインリダイレクト URL"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:64
+msgid "Remember User Session"
+msgstr "ユーザーセッションを記憶する"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:52
+msgid "Require Verified Email"
+msgstr "メールアドレス検証の必須"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:88
+msgid "User Migration Endpoints"
+msgstr "ユーザーマイグレーションのエンドポイント "
+
+#: lib/WP_Auth0_Popup_Widget.php:10
+msgid "Auth0 Popup Login"
+msgstr "Auth0 ポップアップログイン"
+
+#: templates/initial-setup/connection_profile.php:7
+msgid "Once configured, this plugin replaces the standard WordPress login screen (see the \"WordPress Login Enabled\" setting under the Basic tab to keep the WordPress login form enabled). Auth0 adds many features to make login easier and better for your users but the old system will still be there too."
+msgstr "設定されると、本プラグインは WordPress 標準のログイン画面を置き換えます (WordPress ログインフォームを有効にしておく場合は [基本] タブにある「WordPress ログインの有効化」設定を確認してください)。既存のシステムはそのままに、Auth0 はユーザのログインをより簡単により良くする機能を数多く追加をしています。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:67
+msgid "Use Custom Lock JS URL"
+msgstr "Custom Lock JS の URL を使用する"
+
+#: lib/WP_Auth0_Email_Verification.php:42
+msgid "Something went wrong; please login and try again."
+msgstr "エラーが発生しました。もう一度ログインをお試しください。"
+
+#: lib/WP_Auth0_Email_Verification.php:25
+msgid "This site requires a verified email address."
+msgstr "このサイトでは、確認済みのメールアドレスが必要です。"
+
+#: lib/WP_Auth0_Import_Settings.php:41
+msgid "Settings JSON entered is not valid."
+msgstr "入力された JSON が正しくありません。"
+
+#: lib/WP_Auth0_Import_Settings.php:35
+msgid "No settings JSON entered."
+msgstr "JSON が入力されていません。"
+
+#: lib/api/WP_Auth0_Api_Abstract.php:360
+msgid "Error returned"
+msgstr "エラーが返されました"
+
+#. translators: The $scope var here is a machine term and should not be
+#. translated.
+#: lib/api/WP_Auth0_Api_Abstract.php:208
+msgid "API token does not include the scope %s."
+msgstr "API トークンに %s の scope が含まれていません。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:199
+msgid "Title used on the Auth0 login form"
+msgstr "Auth0 ログインフォームで使用するタイトル"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:183
+msgid "Icon above the title on the Auth0 login form. "
+msgstr "Auth0 ログインフォームのタイトル上のアイコン"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:289
+msgid "User migration endpoints activated. "
+msgstr "ユーザーマイグレーションのエンドポイント が有効化されました。"
+
+#: lib/WP_Auth0_LoginManager.php:597
+msgid "Please see the site administrator"
+msgstr "サイト管理者にお問い合わせください"
+
+#: lib/WP_Auth0_LoginManager.php:594
+msgid "There was a problem with your log in"
+msgstr "ログインに問題がありました。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:65
+msgid "There was an error creating the Auth0 App. Check the "
+msgstr "Auth0 Application の作成時にエラーがありました。以下を確認してください"
+
+#: lib/WP_Auth0_LoginManager.php:273
+msgid "This account does not have an email associated, as required by your site administrator."
+msgstr "サイト管理者の要求により、このアカウントにはメールアドレスが関連付けされていません。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:185
+msgid "A user session by default is kept for two days. "
+msgstr "デフォルトではユーザーセッションは 2日間保持されます。"
+
+#: lib/WP_Auth0_UsersRepo.php:82
+msgid "There is a user with the same email."
+msgstr "同じメールアドレスのユーザが存在します。"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:339
+#: lib/admin/WP_Auth0_Admin_Generic.php:133
+msgid "[REDACTED]"
+msgstr "[保護中]"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:344
+msgid "You need to specify a Client Secret"
+msgstr "Client Secret を設定してください"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:335
+msgid "You need to specify a Client ID"
+msgstr "Client ID を設定してください"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:328
+msgid "You need to specify a domain"
+msgstr "ドメインを設定してください"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:314
+msgid "Generate New Migration Token"
+msgstr "新しいマイグレーショントークンを作成する"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:302
+msgid "No migration token"
+msgstr "マイグレーショントークンがありません"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:290
+msgid "See below for the token to use. "
+msgstr "使用するトークンについては、以下を参照してください。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:319
+msgid "User migration endpoints deactivated. "
+msgstr "ユーザーマイグレーションのエンドポイント が無効化されました。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:310
+msgid "This will change your migration token immediately. "
+msgstr "ただちにマイグレーショントークンを変更します。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:106
+msgid "Valid Proxy IP"
+msgstr "確認済みのプロキシー IP"
+
+#: lib/admin/WP_Auth0_Admin.php:42
+msgid "Choose your icon"
+msgstr "アイコンを選択"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:94
+msgid "Migration IPs Whitelist"
+msgstr "マイグレーションの IP ホワイトリスト"
+
+#: lib/admin/WP_Auth0_Admin.php:46
+msgid "Save or refresh this page to see changes."
+msgstr "変更を確認するにはこのページを保存するか再読み込みします。"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:309
+msgid " by this setting "
+msgstr "設定されています"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:317
+msgid "The Custom Lock JS URL used is not valid."
+msgstr "Custom Lock JS の URL が不正です。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:297
+msgid "The Icon URL used is not valid."
+msgstr "アイコンに使用されている URL が不正です。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:262
+msgid "More information on this settings"
+msgstr "この設定の詳細な情報"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:307
+msgid "Signups are currently "
+msgstr "サインアップは現在、"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:303
+msgid "\"Anyone can register\" in the WordPress General Settings"
+msgstr "WordPress の一般設定において「だれでもユーザー登録ができる」に"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:259
+msgid "Primary color for the Auth0 login form in hex format. "
+msgstr "Auth0 ログインフォームの色の16進数値"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:131
+msgid "Please create your Auth0 account first at "
+msgstr "最初に Auth0 のアカウントを作成してください"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:119
+msgid "The required scopes were rejected."
+msgstr "必要な scope が拒否されました。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:106
+msgid "Please check that your server has internet access and can reach "
+msgstr "サーバーのインターネット接続とこちらへの接続を確認してください :"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:298
+msgid "\"Allow new registrations\" in the Network Admin > Settings > Network Settings"
+msgstr "ネットワーク管理者 > 設定 > ネットワーク設定 に「新規登録の許可」"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:277
+msgid "Logins and signups using the original form will NOT be pushed to Auth0"
+msgstr "元のフォームを使ったログインとサインアップは Auth0 に送信しません"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:262
+msgid "URL is the same as below"
+msgstr "URL は以下と同じです"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:260
+msgid "Via a link under the Auth0 form"
+msgstr "Auth0フォームの下のリンクを経由する場合"
+
+#: templates/auth0-login-form.php:11
+msgid "Login with WordPress username"
+msgstr "WordPress のユーザ名でログインする"
+
+#: templates/import_settings.php:34
+msgid "Paste the settings JSON in the field below. "
+msgstr "以下のフィールドに JSON フォーマットの設定をペーストしてください。"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:256
+msgid "Never"
+msgstr "使用しない"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:249
+msgid "Save settings to generate URL."
+msgstr "設定を保存して URL を生成する。"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:227
+msgid "View your JWKS here"
+msgstr "JWKS を表示させる"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:220
+msgid "JWKS cache expiration in minutes (use 0 for no caching)"
+msgstr "JWKS キャッシュは数分間有効です (キャッシュさせない場合は0に設定してください)"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:200
+msgid " under Show Advanced Settings > OAuth > \"JsonWebToken Signature Algorithm\""
+msgstr "表示箇所は Show Advanced Settings > OAuth > \"JsonWebToken Signature Algorithm\" です"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:58
+msgid "JWT Signature Algorithm"
+msgstr "JWT Signature Algorithm"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:146
+msgid "Overrides the WordPress avatar with the Auth0 profile avatar"
+msgstr "WordPress のアバターを Auth0 のプロフィールアバターで上書きする"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:46
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:40
+msgid "Client ID"
+msgstr "Client ID"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:130
+msgid "Click the expand icon and use the value in the \"Name\" field (like \"google-oauth2\")"
+msgstr "アイコンをクリックして Name フィールドに入力してください (例: \"google-oauth2\")"
+
+#. translators: Placeholder is an HTML link to the Auth0 dashboard.
+#: lib/admin/WP_Auth0_Admin_Features.php:127
+msgid "Find the method name to use under Connections > [Connection Type] in your %s. "
+msgstr "%s の Connections > [Connection Type] で、使用するメソッド名を確認してください。"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:124
+msgid "Enter a name here to automatically use a single, specific connection to login . "
+msgstr "ここに名前を入力して、単一の特定の接続を使用して自動的にログインします。"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:90
+msgid "More on ULP vs embedded here"
+msgstr "ULP と 埋め込みに関する詳細はこちらです"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:89
+msgid "When turned off, <code>wp-login.php</code> will show an embedded login form. "
+msgstr "無効にすると、<code>wp-login.php</code> はにログインフォームが表示されます。"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:88
+msgid "When turned on, <code>wp-login.php</code> will redirect to the hosted login page. "
+msgstr "有効にすると、<code>wp-login.php</code> へのアクセスは ULP のログインページにリダイレクトされます。"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:87
+msgid "Use the Universal Login Page (ULP) for authentication and SSO. "
+msgstr "認証と SSO にUniversal Login Page (ULP) を使用する"
+
+#: lib/admin/WP_Auth0_Admin_Features.php:71
+msgid "Turning this on will log users out of Auth0 when they log out of WordPress."
+msgstr "設定を有効にすると、ユーザーが WordPress からログアウトした際に Auth0 からもログアウトさせられます。"
+
+#: lib/admin/WP_Auth0_Admin_Generic.php:227
+msgid "Value is set in the constant "
+msgstr "値は定数にセットされます"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:502
+msgid "Advanced > \"Login Redirection URL\" cannot point to another site."
+msgstr "Advanced > \"Login Redirection URL\" は他のサイトを指定できません。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:387
+msgid "The Auth0 domain used by the setup wizard to fetch your account information"
+msgstr "Auth0 ドメインはセットアップウィザードがアカウント情報の取得のために使用されます"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:371
+msgid "Whitelist for proxy and load balancer IPs to enable logins and migration webservices"
+msgstr "ログインおよび Web サービスのマイグレーションを有効にするためのプロキシやロードバランサーの IP アドレス用ホワイトリストです。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:354
+msgid "The following Auth0 IPs are automatically whitelisted: "
+msgstr "次の Auth0 IP アドレスは自動的にホワイトリストに追加されます: "
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:353
+msgid "Separate multiple IPs with commas. "
+msgstr "複数の IP アドレスを設定する場合はコンマで区切ってください。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:352
+msgid "Only requests from these IPs will be allowed to access the migration endpoints. "
+msgstr "これらの IP アドレスからのリクエストのみマイグレーションのエンドポイントへのアクセスが許可されます。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:320
+msgid "Custom database connections can be deactivated in the "
+msgstr "カスタムデータベース接続は以下で無効化できます"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:311
+msgid "The new token must be changed in the custom scripts for your database Connection. "
+msgstr "新しいトークンはデータベース接続用のカスタムスクリプト内で変更されなくてはなりません。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:291
+msgid "The custom database scripts need to be configured manually as described "
+msgstr "カスタムデータベーススクリプトは説明に従って、手動で構成する必要があります"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:237
+msgid "Signups will not be allowed but successful Auth0 logins will add the user in WordPress"
+msgstr "サインアップは許可されていません。ただし、 Auth0 ログインに成功すると WordPress にユーザが追加されます。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:236
+msgid "Create new users in the WordPress database when signups are off. "
+msgstr "サインアップが無効になると、新しいユーザが WordPress のデータベースに作成されます。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:220
+msgid "if disabled, the protocol from the WordPress home URL will be used"
+msgstr "無効化された場合、WordPress アドレスのプロトコルが使用されます"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:219
+msgid "Forces the plugin to use HTTPS for the callback URL when a site supports both; "
+msgstr "サイトが両方をサポートしている場合、プラグインがコールバック URL に HTTPS を使うよう強制します; "
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:203
+msgid "This can be overridden with the <code>redirect_to</code> URL parameter"
+msgstr "<code>redirect_to</code> URL パラメーターによって上書きされます"
+
+#: lib/admin/WP_Auth0_Admin.php:44
+msgid "Working ..."
+msgstr "処理中..."
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:58
+msgid "Skip Strategies"
+msgstr "Strategies をスキップする"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:184
+#: templates/a0-widget-setup-form.php:67
+msgid "This image works best as a PNG with a transparent background less than 120px tall"
+msgstr "画像は透過PNGで120px以下の高さが最適です"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:214
+msgid "Automatically display an avatar (from Gravatar) on the Auth0 login form"
+msgstr "Auth0 ログインフォームで自動的にアバーターを表示する（Gravatar から）"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:165
+msgid " and enabled for this Application. "
+msgstr "そしてこのアプリケーションのために有効にする。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:308
+msgid "The Extra Settings parameter should be a valid JSON object."
+msgstr "拡張設定のパラメーターは正しい JSON オブジェクトである必要があります。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:89
+msgid "You can also check the "
+msgstr "こちらも確認できます : "
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:87
+msgid "Make sure to add the following scopes: "
+msgstr "以下の scope を必ず追加してください:"
+
+#: lib/api/WP_Auth0_Api_Exchange_Code.php:69
+#: lib/api/WP_Auth0_Api_Refresh_Access_Token.php:71
+msgid "An /oauth/token call triggered a 401 response from Auth0. "
+msgstr "/oauth/token 呼び出しが Auth0 から 401 が返却されました。"
+
+#: lib/api/WP_Auth0_Api_Change_Password.php:87
+msgid "Password is too weak, please choose a different one."
+msgstr "パスワードが簡単すぎます。他のものを選択してください。"
+
+#: lib/api/WP_Auth0_Api_Exchange_Code.php:70
+msgid "Please check the Client Secret saved in the Auth0 plugin settings. "
+msgstr "Auth0 プラグイン設定で保存されている Client Secret を確認してください。"
+
+#: lib/api/WP_Auth0_Api_Refresh_Access_Token.php:72
+msgid "Please check the Client ID and Client Secret saved in the Auth0 plugin settings. "
+msgstr "Auth0 プラグイン設定で保存されている Client ID と Client Secret を確認してください。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:82
+msgid "Go to your Auth0 dashboard > APIs > Auth0 Management API > Machine to Machine Applications tab and authorize this Application. "
+msgstr "Auth0 ダッシュボード > APIs > Auth0 Management API > Machine to Machine Applications タブを開き、このアプリケーションを認証してください。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:67
+msgid " for more information. If the problem persists, please follow the "
+msgstr "詳細な情報について。問題が解決しない場合はこちらを確認してください : "
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:80
+msgid "There was an error creating the necessary client grants. "
+msgstr "必要なクライアント許可の作成中にエラーが発生しました。"
+
+#. translators: placeholders are machine names stored for this WP instance and
+#. must be included.
+#: lib/WP_Auth0_Api_Client.php:261
+msgid "A client grant for %1$s to %2$s already exists. Make sure this grant at least includes %3$s."
+msgstr "%1$sから%2$sへのクライアント許可はすでに存在しています。 この付与には少なくとも%3$sが含まれていることを確認してください。"
+
+#: lib/api/WP_Auth0_Api_Client_Credentials.php:74
+msgid "No access_token returned."
+msgstr "access_token が返却されませんでした。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:202
+msgid "URL where successfully logged-in users are redirected when using the wp-login.php page. "
+msgstr "wp-login.php からログインに成功したユーザがリダイレクトされる URL。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:43
+#: templates/a0-widget-setup-form.php:39
+msgid "Enable Gravatar Integration"
+msgstr "Gravatar との統合"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:49
+msgid "Login Name Style"
+msgstr "ログイン名のスタイル"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:73
+msgid "Custom Lock JS URL"
+msgstr "Custom Lock JS URL"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:79
+msgid "Connections to Show"
+msgstr "表示する Connections"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:186
+msgid "Enabling this setting will extend that and make the session be kept for 14 days"
+msgstr "この設定を有効化すると、セッションは延長されて14日間維持されます"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:103
+msgid "Currently using:"
+msgstr "現在使用中 : "
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:141
+msgid "Username/password login is not enabled when Passwordless is on"
+msgstr "ユーザ名・パスワードでのログインはパスワードレスログインがオンの場合は使えません"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:169
+msgid "This could introduce a security risk and should be used sparingly, if at all"
+msgstr "セキュリティリスクをもたらすため、使用する場合は最小限に留めてください"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:138
+msgid "Passwordless connections are managed in the "
+msgstr "パスワードレス接続はこちらで管理されています : "
+
+#: lib/WP_Auth0_Popup_Widget.php:14
+msgid "Shows a button to pop up an Auth0 login form in your sidebar"
+msgstr "サイドバーに Auth0 ログインフォームをポップアップさせるボタンを表示させます"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:121
+msgid "This should point to the latest Lock JS available in the CDN and rarely needs to change"
+msgstr "これは CDN で利用可能な最新の Lock JS を設定する必要があり、変更する必要はほとんどありません"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:137
+msgid "Turn on Passwordless login (email or SMS) in the Auth0 form. "
+msgstr "Auth0 フォームでパスワードレスログイン（メール or SMS）をオンにする。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:168
+msgid "Leave this field blank to require email for all strategies. "
+msgstr "すべての施策に対しメールアドレスを要求するには空欄にしてください。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:167
+msgid "You can find the strategy under the \"Connection Name\" field in the Auth0 dashboard. "
+msgstr "戦略はダッシュボード内の \"Connection Name\" フィールドで確認できます。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:166
+msgid "Enter one or more strategies, separated by commas, to skip email verification. "
+msgstr "メール認証をスキップするにはコンマ区切りで1つ以上の戦略を入力してください。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:148
+msgid "This will disallow logins from social connections that do not provide email (like Twitter)"
+msgstr "メールアドレスを提供しないソーシャルコネクション (例 Twitter) からのログインを禁じます"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:147
+msgid "An email address is verified manually by an email from Auth0 or automatically by the provider. "
+msgstr "メールアドレスは Auth0 からのメールにより手動、またプロバイダにより自動で検証されます。"
+
+#: lib/admin/WP_Auth0_Admin_Advanced.php:146
+msgid "Require new users to both provide and verify their email before logging in. "
+msgstr "新規ユーザに対し、ログイン前にメールアドレスの提供と検証の両方を求めます。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:279
+msgid "Valid JSON for Lock options configuration; will override all options set elsewhere. "
+msgstr "Lock オプション設定に有効な JSON は他で設定されたすべての設定内容を上書きします。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:243
+msgid "Only database connections that require a username will allow username logins"
+msgstr "ユーザー名を必要とするデータベース接続のみがユーザー名によるログインを許可します"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:242
+msgid "To allow the user to use either email or username to login, leave this as \"Auto.\" "
+msgstr "メールアドレスまたはユーザ名のいずれでもログインできるようにするには、設定を \"Auto\" にしてください。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:166
+msgid "Click on a Connection and use the \"Name\" value in this field"
+msgstr "Connection をクリックして \"Name\" の値を使用します。"
+
+#. translators: HTML link to the Auth0 dashboard.
+#: lib/admin/WP_Auth0_Admin_Appearance.php:162
+msgid "Connections listed here must already be active in your %s"
+msgstr "ここにリストされている Connection は %s においてアクティブでなくてはなりません"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:159
+msgid "Separate multiple connection names with a comma. "
+msgstr "複数の接続名をコンマで区切ってください。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:158
+msgid "If this is empty, all enabled connections for this Application will be shown. "
+msgstr "このアプリケーションで有効なすべての接続が表示させるにはここを空欄にしてください。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:157
+msgid "Specify which Social, Database, or Passwordless connections to display in the Auth0 form. "
+msgstr "Auth0 フォームで表示させるソーシャル、データベース、パスワードレス接続を指定してください。"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:140
+msgid " and at least one must be active and enabled on this Application for this to work. "
+msgstr "また、動作させるにはアプリケーションにおいて最低でも1つがアクティブかつ有効でなくてはなりません。"
+
+#: WP_Auth0.php:562
+msgid "Login by Auth0 is not yet configured. Please use the "
+msgstr "Auth0 によるログインはまだ設定されていません。以下で設定をしてください"
+
+#: templates/a0-widget-setup-form.php:96
+msgid "Valid JSON for Lock options configuration; will override all options set elsewhere."
+msgstr "Lock オプション設定に有効な JSON は他で設定されたすべての設定内容を上書きします。"
+
+#: templates/a0-widget-setup-form.php:74
+msgid "The languageDictionary parameter for the Auth0 login form. "
+msgstr "Auth0 ログインフォーム用の languageDictionary 変数 "
+
+#: templates/settings.php:44
+msgid "including:"
+msgstr "次の機能も含まれています : "
+
+#: templates/settings.php:41
+msgid "Thank you for installing Login by Auth0! Auth0 is a powerful identity solution that secures billions of logins every month. In addition to the options here, there are many more features available in the"
+msgstr "Login by Auth0 をインストールしてくれてありがとうございます！　Auth0 は毎月何十億もの安全なログインを提供しているパワフルな本人確認ソリューションです。ここでのオプションに加えて、他にも多くの機能があります。"
+
+#: templates/initial-setup/connection_profile.php:119
+msgid "Already set up another WordPress instance with Auth0?"
+msgstr "他の WordPress インスタンスで  Auth0 は設定済みですか？ "
+
+#: templates/initial-setup/connection_profile.php:111
+msgid "If you already have an Application or want to use an existing database connection, please follow the steps below."
+msgstr "既存のアプリケーションやデータベース接続設定を使用する場合は、次の手順に従ってください。"
+
+#: templates/initial-setup/connection_profile.php:105
+msgid "Start User Migration Setup"
+msgstr "ユーザ移行のセットアップを開始する"
+
+#: templates/initial-setup/connection_profile.php:97
+msgid "User Migration Setup"
+msgstr "ユーザー移行のセットアップ"
+
+#: templates/initial-setup/connection_profile.php:81
+msgid " and paste it below:"
+msgstr "下のテキスト欄にペーストしてください:"
+
+#: templates/initial-setup/connection_profile.php:79
+msgid "Create a Management API token using these steps"
+msgstr "これらのステップに使用する管理 API トークンを生成して"
+
+#: templates/initial-setup/connection_profile.php:6
+msgid "Users can log in within their own credentials - social like Google or Facebook, or username and password -  or use their employee credentials through an enterprise connection. Use either or both and you'll increase your WordPress site's security and consolidate identity data."
+msgstr "ユーザは自身の認証情報 - ソーシャルアカウントであれば Google や Facebook、またはユーザ名・パスワード - を使ってログインできます。また、従業員用の認証を使ってエンタープライズ接続からでもログインができます。いずれかまたは両方を使えば WordPress のセキュリティや ID データの統合をより強固にできます。"
+
+#: templates/import_settings.php:13
+msgid "This allows you to either backup the data, or to move your settings to a new WordPress instance."
+msgstr "これにより、データをバックアップしたり、設定を新しい WordPress インスタンスに移動できます。"
+
+#: templates/import_settings.php:12
+msgid "You can import and export your Auth0 WordPress plugin settings here. "
+msgstr "ここでは Auth0 WordPress プラグインの設定をインポートまたはエクスポートができます。"
+
+#: lib/WP_Auth0_Embed_Widget.php:57
+msgid "Please check your Auth0 configuration"
+msgstr "Auth0 設定を確認してください"
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:99
+msgid "Use a custom Lock CDN URL instead of the default. "
+msgstr "デフォルトの代わりにカスタム Lock CDN URL を使用する。"
+
+#: lib/WP_Auth0_Email_Verification.php:43
+msgid "Email successfully re-sent to "
+msgstr "次のメールアドレスにメールを再送信しました : "
+
+#: lib/WP_Auth0_Email_Verification.php:35
+msgid "Resend verification email."
+msgstr "確認メールを再送する。"
+
+#: lib/initial-setup/WP_Auth0_InitialSetup.php:103
+msgid "There was an error retrieving your Auth0 credentials. Check the "
+msgstr "Auth0 資格情報の取得中にエラーが発生しました。こちらを確認してください : "
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:198
+msgid "This value can be found the Application settings in the "
+msgstr "この値はアプリケーション設定の以下の項目で確認できます: "
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:156
+msgid "Client Secret, found in your Application settings in the "
+msgstr "Client Secret はアプリケーション設定内で確認できます: "
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:137
+msgid "Client ID, found in your Application settings in the "
+msgstr "Client ID はアプリケーション設定内で確認できます: "
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:118
+msgid "Custom login domain. "
+msgstr "カスタムログインドメイン: "
+
+#: lib/admin/WP_Auth0_Admin_Basic.php:98
+msgid "Auth0 Domain, found in your Application settings in the "
+msgstr "Auth0 Domain はアプリケーション設定内で確認できます: "
+
+#: lib/admin/WP_Auth0_Admin_Appearance.php:55
+msgid "Primary Color"
+msgstr "メインの色"
